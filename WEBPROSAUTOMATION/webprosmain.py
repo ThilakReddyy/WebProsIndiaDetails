@@ -52,7 +52,7 @@ if __name__ == "__main__":
     IndividualOrMultiple=GettingInput.gettheindividualormultiple()
 
     #GETTING THE DETAILS-----------------------------------
-    if(IndividualOrMultiple==2):
+    if(IndividualOrMultiple=="2"):
         Status.PrintStatus("Getting the Details...","yellow")
         dict,rolli=GettingInput.Getthefromandto(lolli)
         rolli=rolli[:8]
