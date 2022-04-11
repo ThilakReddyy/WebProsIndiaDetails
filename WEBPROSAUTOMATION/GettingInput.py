@@ -33,7 +33,7 @@ def gettheindividualormultiple():
     print("1: Individual Details")
     print("2. Multiple Details")
     Option=input()
-    if(Option!="1" and Option!=2):
+    if(Option!="1" and Option!="2"):
         print(colored("Enter the Valid Option","red"))
         return gettheindividualormultiple()
     return Option
